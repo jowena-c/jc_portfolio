@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+html, body {
+    overflow-x: hidden !important;
+    /* width: 100vw !important; */
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .navbar {
+    background-color:  #1e0439;   
+    overflow: hidden;
+    top: 0;
+} */
+
+/* .navbar-brand {
+    color: black;
+} */
+
+.nav-link {
+    color: black;
+}
+
+
+.hero {
+    width: 100%;
+    height: 750px;
+    /* background-repeat: none; */
+    /* background-size: cover; */
+    background-position: center;
+    background-image: url(../images/acrylic-brush-stroke-background-light-gray-wallpaper-image.jpg);
+    /* color:rgb(238, 226, 239) ; */
+    /* background: linear-gradient(164deg, rgba(51,0,134,1) 0%, rgba(192,49,221,1) 77%); */
+
+    
+}
+
+.hero h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    font-size: 100px;
+    /* color: #201967; */
+}
+
+.hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 0;
+    /* color: #201967; */
+}
+.hero h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 0;
+    /* color: #201967; */
+}
+
+
+#about .sample {
+    font-weight: bold;
+}
+
+.services {
+    background-color: #242a3c;
+    color: #f8fdff;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #242a3c;
+}
+.services-card {
+    background-color: white;
+    width: 350px;
+    height: auto;
+    margin: 20px 10px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-info {
+    padding: 20px;
+}
+
+.services-info h5 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.services-info p {
+    padding-top: 10px;
+}
+
+.services-card:hover{
+    /* opacity: 0.7; */
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.01);
+}
+
+
+/* portfolio */
+.portfolio {
+    background-color: #F7F7F7;
+}
+
+.portfolio .container {
+    background-color: #F7F7F7;
+}
+
+#cards_landscape_wrap-2{
+    text-align: center;
+    background: #F7F7F7;
+}
+#cards_landscape_wrap-2 .container{
+    padding-top: 80px; 
+    padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+}
+
+
